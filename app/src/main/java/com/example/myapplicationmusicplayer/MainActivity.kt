@@ -17,7 +17,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
 
-    // 🎵 管理を Int から String (Uri文字列) に変更
+    // 管理を Int から String (Uri文字列) に変更
     private var musicList: List<String> = listOf()
     private var currentIndex = 0
     private var mediaPlayer: MediaPlayer? = null
